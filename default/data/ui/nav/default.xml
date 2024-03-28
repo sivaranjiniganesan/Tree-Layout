@@ -1,0 +1,5 @@
+<nav search_view="search" color="#67B5D9">
+  <view name="tree_layout_chart_gallery" default="true" />
+  <view name="search"/>
+  <view name="dashboards" />
+</nav>

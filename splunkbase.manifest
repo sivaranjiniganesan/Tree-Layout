@@ -1,0 +1,112 @@
+{
+  "version": "1.0",
+  "date": "2024-03-06T10:08:01.279651707Z",
+  "hashAlgorithm": "SHA-256",
+  "app": {
+    "id": 7257,
+    "version": "1.0.0",
+    "files": [
+      {
+        "path": "appserver/static/Blurred-backgrounds-by-Dreamstale-5.jpg",
+        "hash": "eb75a1afdbc119165fa56645712e46bbfa0f73b21683a82faebd0c152626c4c9"
+      },
+      {
+        "path": "appserver/static/images/Blurred-backgrounds-by-Dreamstale-5.jpg",
+        "hash": "eb75a1afdbc119165fa56645712e46bbfa0f73b21683a82faebd0c152626c4c9"
+      },
+      {
+        "path": "appserver/static/preview.PNG",
+        "hash": "a30203fe264ae38c2c0cac39a10aba840580731fcdaad09cdd7ab68ed4b327ca"
+      },
+      {
+        "path": "appserver/static/visualizations/tree_layout_chart/formatter.html",
+        "hash": "a419b4573387592c8cb0d98f707d8872dd90d1709e194015e53da10c7aaa2258"
+      },
+      {
+        "path": "appserver/static/visualizations/tree_layout_chart/preview.png",
+        "hash": "953a54d6d83590dcd2fddafb9f61cc3f6f93b5bbec75a9a61fbff0a4a9809843"
+      },
+      {
+        "path": "appserver/static/visualizations/tree_layout_chart/README.md",
+        "hash": "012a27ee4bb1366dcc3a524188aaa680c34ca64fb8e061aea313f6f58ef28da2"
+      },
+      {
+        "path": "appserver/static/visualizations/tree_layout_chart/src/tree_layout_chart.js",
+        "hash": "ad53a0def5bac8363db4ed57d4caa204dd5fd08433684740bff830e33e915758"
+      },
+      {
+        "path": "appserver/static/visualizations/tree_layout_chart/visualization.css",
+        "hash": "707fe9732adc17ee1b38b8dacda4870e1022faa0e4d25abfaa6df494c19c3d49"
+      },
+      {
+        "path": "appserver/static/visualizations/tree_layout_chart/visualization.js",
+        "hash": "80d3923aedbbe9ed28c41ac202a513c4887462cdb74dea6f75bd936261495cb8"
+      },
+      {
+        "path": "appserver/static/visualizations/tree_layout_chart/webpack.config.js",
+        "hash": "2ac51cbbaf1e3214cb695a0256f6d6821b131cd9d8b7915d1cece8e8049b53d4"
+      },
+      {
+        "path": "default/app.conf",
+        "hash": "61791d13fd0db2efad663ab2e1fd0982977594821f466065e5b6b993cf82e175"
+      },
+      {
+        "path": "default/data/ui/nav/default.xml",
+        "hash": "38a7854a28cca6dc56796024b8218a2f7f5e3513bf9e5d4cb9cc230e66165faa"
+      },
+      {
+        "path": "default/data/ui/views/tree_layout_chart_gallery.xml",
+        "hash": "608d706529c94aa1902a6c9352740d9c404b269ba7329c5bf7bacb717f0d6791"
+      },
+      {
+        "path": "default/savedsearches.conf",
+        "hash": "d18be77ed84cba968e3831d15ed4ed449b91d7e7546285d57af60ff0252f6073"
+      },
+      {
+        "path": "default/visualizations.conf",
+        "hash": "91196d112f3d19e47fd7257a726172c92e749fdb0ee47d595e99327d951ab5c9"
+      },
+      {
+        "path": "metadata/default.meta",
+        "hash": "b1279f513bd29a8329f76bd707842531ed708781fb0235035c1cccf958527559"
+      },
+      {
+        "path": "README/savedsearches.conf.spec",
+        "hash": "813c461fada2ea8bbd79ea60b7bd9e8ba49278c85986636d57cd0a7fcfb03a6e"
+      },
+      {
+        "path": "static/appIcon.png",
+        "hash": "a30203fe264ae38c2c0cac39a10aba840580731fcdaad09cdd7ab68ed4b327ca"
+      },
+      {
+        "path": "static/appIcon_2x.png",
+        "hash": "a30203fe264ae38c2c0cac39a10aba840580731fcdaad09cdd7ab68ed4b327ca"
+      }
+    ]
+  },
+  "products": [
+    {
+      "platform": "splunk",
+      "product": "enterprise",
+      "versions": [
+        "8.0",
+        "8.1",
+        "8.2",
+        "9.0",
+        "9.1",
+        "9.2"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    }
+  ]
+}

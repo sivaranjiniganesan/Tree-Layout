@@ -1,0 +1,45 @@
+<dashboard version="1.1" theme="light">
+  <label>tree_layout_chart_gallery</label>
+  <row>
+    <panel>
+      <title>Index || Sourcetype || Source</title>
+      <viz type="tree_layout_app.tree_layout_chart">
+        <search>
+          <query>index="_internal" |dedup index  sourcetype source  |eval result=index."||".sourcetype."||".source |table result</query>
+          <earliest>-60m@m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="tree_layout_app.tree_layout_chart.background">color</option>
+        <option name="tree_layout_app.tree_layout_chart.backgroundColor">#fff</option>
+        <option name="tree_layout_app.tree_layout_chart.background_color">#bed9ea</option>
+        <option name="tree_layout_app.tree_layout_chart.background_url">https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ37vpJNfOcxtO39i0gfBIQ9pI_WaVkqshWc8Shttl6iMts_MJA</option>
+        <option name="tree_layout_app.tree_layout_chart.dialColor">#d0d5d9</option>
+        <option name="tree_layout_app.tree_layout_chart.height">500</option>
+        <option name="tree_layout_app.tree_layout_chart.htext_color">#0ba207</option>
+        <option name="tree_layout_app.tree_layout_chart.label">Index,Sourcetype, Source</option>
+        <option name="tree_layout_app.tree_layout_chart.label_yaxis">250,500,750</option>
+        <option name="tree_layout_app.tree_layout_chart.link_color">#000000</option>
+        <option name="tree_layout_app.tree_layout_chart.linklength">15,25,35,45,55</option>
+        <option name="tree_layout_app.tree_layout_chart.maxRangeColor">#b44441</option>
+        <option name="tree_layout_app.tree_layout_chart.maxRangeThreshold">80</option>
+        <option name="tree_layout_app.tree_layout_chart.maxValue">100</option>
+        <option name="tree_layout_app.tree_layout_chart.midRangeColor">#fbcd2f</option>
+        <option name="tree_layout_app.tree_layout_chart.midRangeThreshold">55</option>
+        <option name="tree_layout_app.tree_layout_chart.minRangeColor">#3fc77a</option>
+        <option name="tree_layout_app.tree_layout_chart.minValue">0</option>
+        <option name="tree_layout_app.tree_layout_chart.node_color">#b1c3da</option>
+        <option name="tree_layout_app.tree_layout_chart.text_color">#000000</option>
+        <option name="tree_layout_app.tree_layout_chart.thresholdStyle">percentage</option>
+        <option name="tree_layout_app.tree_layout_chart.useRangemap">0</option>
+        <option name="tree_layout_app.tree_layout_chart.valueColor">#555</option>
+        <option name="tree_layout_app.tree_layout_chart.width">700</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+  </row>
+</dashboard>
